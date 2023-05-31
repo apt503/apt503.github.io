@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 800px; 
+    margin: 0 auto;
+	color: #202020;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+	color: #202020;
+}
+
+#about-me {
+    margin: 20px;
+}
+
+#about-me img {
+    float: right;
+    margin:  0 10px 10px;
+    width: 150px;    /* Adjust as necessary */
+    height: auto; 
+}
+
+#about-me h2 {
+    clear: none;
+}
+
+#about-me p, #about-me ul {
+    clear: none;
+    margin: 0 0 10px;
+}
+
+#citations {
+    font-family: Arial, sans-serif;
+    padding-left: 20px;
+}
+
+#citations li {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    padding-left: 20px;
+}
